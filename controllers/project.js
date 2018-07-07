@@ -98,7 +98,7 @@ var controller = {
 
 			var filePath = req.files.image.path;
 			console.log(filePath)
-			var fileSplit = filePath.split("\\");
+			var fileSplit = filePath.split("/");
 			var fileName = fileSplit[1];
 
 			var extSplit = fileName.split('.');
