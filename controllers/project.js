@@ -97,6 +97,7 @@ var controller = {
 		if (req.files) {
 
 			var filePath = req.files.image.path;
+			console.log(filePath)
 			var fileSplit = filePath.split("\\");
 			var fileName = fileSplit[1];
 
