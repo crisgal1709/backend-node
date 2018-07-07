@@ -2,13 +2,16 @@
 
 var Project = require('../models/project');
 var fs = require('fs');
+var io = require('../socket');
 
 var controller = {
 
 	home: function(req, res){
-		return res.status(200).send({
-				  	message: 'Soy el home'
-			   });
+
+		
+	io.emit('prueba', req.query )
+	res.status(200);
+
 	}, 
 
 	test: function(req, res){

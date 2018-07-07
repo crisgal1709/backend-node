@@ -6,6 +6,8 @@ var app = require('./app');
 var port = process.env.PORT || 3000;
 var urlMongo = process.env.MONGODB_URI || 'mongodb://localhost:27017/portafolio';
 
+
+
 mongoose.connect(urlMongo)
 				.then(() => {
 					console.log('Conexión a la base de datos establecida exitosamente');
