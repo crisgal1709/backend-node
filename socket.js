@@ -9,7 +9,7 @@ var io = require('socket.io')(server);
 var port = process.env.PORT_SOCKET || 3001;
 
 server.listen(port, function(){
-	console.log('El servidor está funcionando en localhost:' + port);
+	console.log('El servidor está funcionando en :' + port);
 });
 
 app.get('/', (req, res)=> {

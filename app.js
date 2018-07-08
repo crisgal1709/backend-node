@@ -31,7 +31,7 @@ app.use((req, res, next) => {
 //Rutas
 app.use('/api', project_routes);
 app.use('/socket', socket_routes);
-app.use(express.static('client'));
+//app.use(express.static('client'));
 
 
 module.exports = app;
