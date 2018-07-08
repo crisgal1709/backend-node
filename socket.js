@@ -1,18 +1,29 @@
 'use strict'
 
 
-var app = require('./app');
+var express = require('express');
+var app = express();
+var server = require('http').Server(app);
+var io = require('socket.io')(server);
 
-//var server = require('http').Server(app);
+var port = process.env.PORT_SOCKET || 3001;
 
-var io = require('socket.io')(app)
+server.listen(port, function(){
+	console.log('El servidor está funcionando en localhost:' + port);
+});
+
+app.get('/', (req, res)=> {
+	console.log(req.query);
+	io.emit('prueba', req.query )
+	res.status(200).send('si');
+});
 
 //Sockets
 var messages = [
 	{
 		id: 1,
-		text: 'Bienvenido al chat privado de NodeJs y Socket.io de Cristian Galeano',
-		nickname: 'Bot - @cristiangno'
+		text: 'Bienvenido, si está aquí por error, no hay nada especial, son solo pruebas con Socket.io',
+		nickname: 'Bot - cristiangno'
 	}
 ];
 

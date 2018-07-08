@@ -1,16 +1,11 @@
 'use strict'
 
 var Project = require('../models/project');
-var fs = require('fs');
-var io = require('../socket');
+
 
 var controller = {
 
 	home: function(req, res){
-
-		
-	io.emit('prueba', req.query )
-	res.status(200);
 
 	}, 
 
