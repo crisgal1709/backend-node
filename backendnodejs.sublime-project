@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/Users/desarrollador/Documents/masterjs/proyecto-angular"
 		}
 	]
 }

@@ -1,6 +1,8 @@
 'use strict'
 
 var Project = require('../models/project');
+var path = require('path')
+var fs = require('fs');
 
 
 var controller = {
@@ -88,6 +90,15 @@ var controller = {
 
 	},
 
+	deleteAllProjects: function(req, res){
+		Project.findByIdAndRemove('5b42811c901412568fedfa5e', (err, projectRemoved) => {
+			console.log(err)
+			console.log(projectRemoved)
+		})
+
+		res.status(200).send({si: 'si'})
+	},
+
 	uploadImage: function(req, res){
 		var projectId = req.params.id;
 		var fileName = "Imagen no subida";
@@ -122,6 +133,23 @@ var controller = {
 			return res.status(200).send({message: fileName});
 		}
 	},
+
+	getImageFile(req, res){
+		var file = req.params.image;
+		var path_file = './uploads/'+file;
+
+		fs.exists(path_file, (exists) => {
+			if (exists) {
+				return res.sendFile(path.resolve(path_file));
+			} else {
+				res.status(200).send({
+					error: 1,
+					message: 'No existe la imagen',
+				})
+			}
+		})
+	},
+
 
 }
 

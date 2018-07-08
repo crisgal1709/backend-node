@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 var app = require('./app');
 var port = process.env.PORT || 3000;
-var urlMongo = process.env.MONGODB_URI || 'mongodb://localhost:27017/portafolio';
+var urlMongo = process.env.MONGODB_URI || 'mongodb+srv://crisgal:thewise@cluster0-0rg4n.mongodb.net/test?retryWrites=true';
 
 
 
