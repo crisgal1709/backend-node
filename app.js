@@ -9,6 +9,7 @@ var app = express();
 //cargar archivos de Rutas
 var project_routes = require('./routes/project');
 var socket_routes = require('./routes/socket');
+var ingreso_routes = require('./routes/ingreso');
 
 
 //Middelaware
@@ -31,6 +32,7 @@ app.use((req, res, next) => {
 //Rutas
 app.use('/api', project_routes);
 app.use('/socket', socket_routes);
+app.use('/ingreso', ingreso_routes);
 //app.use(express.static('client'));
 
 

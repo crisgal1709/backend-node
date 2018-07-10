@@ -3,6 +3,7 @@
 var Project = require('../models/project');
 var path = require('path')
 var fs = require('fs');
+var Controller = require('./controller');
 
 
 var controller = {
@@ -52,13 +53,9 @@ var controller = {
 	}, 
 
 	getProjects: function(req, res){
-		Project.find({}).sort('-year').exec((err, projects) => {
-			if(err) return res.status(500).send({error: 1, message: 'Error al recuperar los projectos... ' + err});
+		
 
-			if (!projects) return res.status(404).send({error: 1, message: "No hay projectos disponibles."});
-
-			return res.status(200).send({error: 0, projects: projects})
-		});
+		return Controller.getAll(req, res, Project, 'projects');
 	}, 
 
 	updateProject: function(req, res){

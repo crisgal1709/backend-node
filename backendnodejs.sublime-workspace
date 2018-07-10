@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-size"
+			],
+			[
+				"Proj",
+				"Project\talias"
+			],
+			[
+				"getPro",
+				"getProject"
+			],
+			[
+				"form",
+				"from\tkeyword"
+			],
+			[
+				"fil",
+				"filesToUpload\tproperty"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"XM",
+				"XMLHttpRequest\tvar"
+			],
+			[
+				"Http",
+				"HttpHeaders\talias"
+			],
+			[
+				"Proje",
+				"ProjectService\talias"
+			],
+			[
+				"fro",
+				"from\tkeyword"
+			],
+			[
+				"pro",
+				"project\tscript"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"Erro",
+				"ErrorComponent\talias"
+			],
+			[
+				"create",
+				"CreateComponent\talias"
+			],
+			[
 				"projec",
 				"projectId"
 			],
@@ -328,10 +384,6 @@
 				"scrollTop\t.scrollTop()"
 			],
 			[
-				"fro",
-				"for\tfor (…) {…} (Improved Native For-Loop)"
-			],
-			[
 				"import",
 				"import\tkeyword"
 			],
@@ -462,63 +514,20 @@
 			[
 				"ps",
 				"perspective"
-			],
-			[
-				"u",
-				"uppercase"
-			],
-			[
-				"he",
-				"height"
-			],
-			[
-				"e",
-				"center"
-			],
-			[
-				"t",
-				"initial"
-			],
-			[
-				"pos",
-				"pos\tposition: ${1:relative};"
-			],
-			[
-				"ch",
-				"change\t.change()"
-			],
-			[
-				"cl",
-				"closest\t.closest()"
-			],
-			[
-				"has",
-				"hasClass\t.hasClass()"
-			],
-			[
-				"css",
-				"css\t.css() - multiple"
-			],
-			[
-				"add",
-				"addClass\t.addClass()"
-			],
-			[
-				"tran",
-				"transition"
-			],
-			[
-				"sli",
-				"slideToggle\t.slideToggle()"
-			],
-			[
-				"pre",
-				"prevUntil\t.prevUntil()"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.routing.ts",
+			"settings":
+			{
+				"buffer_size": 653,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -588,7 +597,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 592.0
+		"width": 464.0
 	},
 	"console":
 	{
@@ -620,12 +629,44 @@
 	},
 	"expanded_folders":
 	[
-		"/C/laragon/www/backend",
-		"/C/laragon/www/backend/controllers",
-		"/C/laragon/www/backend/routes"
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app"
 	],
 	"file_history":
 	[
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.routing.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/index.html",
+		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/ingreso.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/routes/project.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/routes/ingreso.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/app.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/models/ingreso.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/project.js",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/edit/edit.component.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/project.service.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.ts",
+		"/Users/desarrollador/Documents/masterjs/backend-node/.gitignore",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/assets/css/styles.css",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/projects/projects.component.html",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/global.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/detail/detail.component.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/projects/projects.component.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.routing.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/detail/detail.component.html",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.html",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/upload.service.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/models/project.ts",
+		"/Users/desarrollador/Documents/masterjs/backend-node/models/project.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/node_modules/mongoose/lib/model.js",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/index.html",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/node_modules/rxjs/Observable.js",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.module.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/about/about.component.html",
+		"/Users/desarrollador/Documents/masterjs/backend-node/index.js",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.component.html",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/about/about.component.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/angular.json",
 		"/C/laragon/www/backend/socket.js",
 		"/C/laragon/www/backend/index.js",
 		"/C/laragon/www/backend/controllers/socket.js",
@@ -721,43 +762,11 @@
 		"/C/laragon/www/cemde/app/Policies/BloqueadoPolicies.php",
 		"/C/laragon/www/cemde/resources/views/bloqueados/index.blade.php",
 		"/C/laragon/www/cemde/app/Policies/CalendariosPolicies.php",
-		"/C/laragon/www/cemde/resources/views/pacientes/show.blade.php",
-		"/C/laragon/www/cemde/resources/views/calendarios/datatables_actions.blade.php",
-		"/C/laragon/www/cemde/app/Models/Solicitud.php",
-		"/C/laragon/www/cemde/app/Http/Controllers/InventarioController.php",
-		"/C/laragon/www/cemde/app/Models/Cotizacion.php",
-		"/C/laragon/www/cemde/resources/views/cotizaciones/items.blade.php",
-		"/C/laragon/www/cemde/resources/views/cotizaciones/fields.blade.php",
-		"/C/laragon/www/cemde/resources/views/cotizaciones/edit.blade.php",
-		"/C/laragon/www/cemde/app/Http/Controllers/CotizacionController.php",
-		"/C/laragon/www/cemde/resources/views/layouts/app.blade.php",
-		"/C/laragon/www/cemde/app/Models/IngresoCotizacion.php",
-		"/C/laragon/www/cemde/app/DataTables/IngresoCotizacionDataTable.php",
-		"/C/laragon/www/cemde/resources/views/cotizaciones/index.blade.php",
-		"/C/laragon/www/cemde/resources/views/ingreso_cotizacions/index.blade.php",
-		"/C/laragon/www/cemde/resources/views/cotizaciones/datatables_actions.blade.php",
-		"/C/laragon/www/cemde/resources/views/impresiones/cotizacion.blade.php",
-		"/C/laragon/www/cemde/app/Models/Factura.php",
-		"/C/laragon/www/cemde/app/Models/ItemCotizacion.php",
-		"/C/laragon/www/cemde/database/migrations/2018_04_03_114037_create_item_cotizacions_table.php",
-		"/C/laragon/www/cemde/app/Http/Controllers/ImpresionesController.php",
-		"/C/laragon/www/cemde/app/DataTables/CotizacionDataTable.php",
-		"/C/laragon/www/cemde/resources/views/users/tabs/roles.blade.php",
-		"/C/laragon/www/permissions/database/migrations/2016_05_10_130540_create_permission_tables.php",
-		"/C/laragon/www/cemde/database/migrations/2018_03_19_122300_create_permission_tables.php",
-		"/C/laragon/www/cemde/vendor/spatie/laravel-permission/database/migrations/create_permission_tables.php.stub",
-		"/C/laragon/www/cemde/app/Http/Controllers/UserController.php",
-		"/C/laragon/www/cemde/resources/views/users/fields.blade.php",
-		"/C/laragon/www/cemde/resources/views/users/edit.blade.php",
-		"/C/laragon/www/cemde/resources/views/users/modals/contrasena.blade.php",
-		"/C/laragon/www/cemde/vendor/laravelcollective/html/src/FormBuilder.php",
-		"/C/laragon/www/cemde/resources/views/users/tabs/basica.blade.php",
-		"/C/laragon/www/cemde/app/User.php",
-		"/C/laragon/www/permissions/.env"
+		"/C/laragon/www/cemde/resources/views/pacientes/show.blade.php"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -771,6 +780,83 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"error",
+			"about",
+			"socket",
+			"project",
+			"descripcion",
+			"description",
+			"name",
+			"100",
+			"div",
+			"url",
+			"edit",
+			"deleteProject",
+			"detail",
+			"1",
+			"getProject",
+			"ErrorComponent",
+			"5b426235c4927b4ebb20570d",
+			"path",
+			"Path",
+			"path",
+			"Path",
+			"path",
+			"year",
+			"in",
+			"ProjectService",
+			"project",
+			"UploadService",
+			"false",
+			"success",
+			"5b425ecea079c64d2570be53",
+			"error",
+			"err",
+			"projectRemoved",
+			"post",
+			"projectId",
+			"delete",
+			"deleteall",
+			"delete",
+			"string",
+			"String",
+			"error",
+			"<span",
+			"span",
+			"name",
+			"input",
+			"text",
+			"langs",
+			"Lenguajes",
+			"laimngs",
+			"year",
+			"name",
+			"Nombre",
+			"name",
+			"Project",
+			"project",
+			"models",
+			"Observable",
+			"http",
+			"common",
+			"angular",
+			"String",
+			"title",
+			"1",
+			"email",
+			"title",
+			"styles",
+			"proyectos",
+			"Proyectos",
+			");",
+			"AboutComponent",
+			"ContactComponent",
+			"contacto",
+			"\t{",
+			"CreateComponent",
+			"ProjectsComponent",
+			"proyectos",
+			"AboutComponent",
 			"server",
 			"home",
 			"ProjectController",
@@ -791,7 +877,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -800,14 +886,44 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.routing.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -872,7 +988,7 @@
 	"project": "backendnodejs.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -881,6 +997,34 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"detailcon",
+				"proyecto-angular/src/app/components/detail/detail.component.html"
+			],
+			[
+				"project.se",
+				"proyecto-angular/src/app/services/project.service.ts"
+			],
+			[
+				"styles.css",
+				"proyecto-angular/src/assets/css/styles.css"
+			],
+			[
+				"projectscon",
+				"proyecto-angular/src/app/components/projects/projects.component.html"
+			],
+			[
+				"routesproje",
+				"backend-node/routes/project.js"
+			],
+			[
+				"stylescs",
+				"proyecto-angular/src/assets/css/styles.css"
+			],
+			[
+				"rxjsobser",
+				"proyecto-angular/node_modules/rxjs/Observable.js"
+			],
 			[
 				"web",
 				"routes\\web.php"
@@ -1364,34 +1508,6 @@
 			[
 				"procedicon",
 				"app\\Http\\Controllers\\ProcedimientoController.php"
-			],
-			[
-				"tabsformu",
-				"resources\\views\\pacientes\\tabs\\formulacion.blade.php"
-			],
-			[
-				"tabscalida",
-				"resources\\views\\pacientes\\tabs\\cuestionarios\\calidad-vida.blade.php"
-			],
-			[
-				"calidadcon",
-				"app\\Http\\Controllers\\Cuestionario_calidad_vidaController.php"
-			],
-			[
-				"tabscuesansied",
-				"resources\\views\\pacientes\\tabs\\cuestionarios\\ansiedad.blade.php"
-			],
-			[
-				"ansiedcon",
-				"app\\Http\\Controllers\\CuestionarioAnsiedadController.php"
-			],
-			[
-				"tabscesdepe",
-				"resources\\views\\pacientes\\tabs\\cuestionarios\\depresion.blade.php"
-			],
-			[
-				"deprescon",
-				"app\\Http\\Controllers\\FormularioDepresionController.php"
 			]
 		],
 		"width": 0.0
@@ -1422,7 +1538,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 181.0,
+	"side_bar_width": 201.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
