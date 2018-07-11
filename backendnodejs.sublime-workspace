@@ -519,15 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.routing.ts",
-			"settings":
-			{
-				"buffer_size": 653,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -629,20 +620,34 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app"
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components"
 	],
 	"file_history":
 	[
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.routing.ts",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.routing.ts",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/index.html",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.module.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.module.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.component.html",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/login/login.component.html",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.component.ts",
+		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/project.js",
 		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/ingreso.js",
-		"/Users/desarrollador/Documents/masterjs/backend-node/routes/project.js",
 		"/Users/desarrollador/Documents/masterjs/backend-node/routes/ingreso.js",
 		"/Users/desarrollador/Documents/masterjs/backend-node/app.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/controller.js",
 		"/Users/desarrollador/Documents/masterjs/backend-node/models/ingreso.js",
-		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/project.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/models/usuario.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/usuario.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/routes/usuario.js",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/index.html",
+		"/Users/desarrollador/Documents/masterjs/backend-node/routes/project.js",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/edit/edit.component.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/project.service.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.ts",
@@ -652,7 +657,6 @@
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/global.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/detail/detail.component.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/projects/projects.component.ts",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.routing.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/detail/detail.component.html",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.html",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/upload.service.ts",
@@ -661,7 +665,6 @@
 		"/Users/desarrollador/Documents/masterjs/backend-node/node_modules/mongoose/lib/model.js",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/index.html",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/node_modules/rxjs/Observable.js",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.module.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/about/about.component.html",
 		"/Users/desarrollador/Documents/masterjs/backend-node/index.js",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.component.html",
@@ -754,15 +757,7 @@
 		"/C/laragon/www/cemde/app/Policies/ServiciosIntangiblesPolicies.php",
 		"/C/laragon/www/cemde/app/Http/Helpers.php",
 		"/C/laragon/www/cemde/app/Http/Controllers/ProductoController.php",
-		"/C/laragon/www/cemde/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
-		"/C/laragon/www/cemde/vendor/spatie/laravel-permission/src/Traits/HasRoles.php",
-		"/C/laragon/www/cemde/app/Traits/BeforePoliticas.php",
-		"/C/laragon/www/cemde/app/Http/Controllers/HomeController.php",
-		"/C/laragon/www/cemde/app/Policies/AtencionesPolicies.php",
-		"/C/laragon/www/cemde/app/Policies/BloqueadoPolicies.php",
-		"/C/laragon/www/cemde/resources/views/bloqueados/index.blade.php",
-		"/C/laragon/www/cemde/app/Policies/CalendariosPolicies.php",
-		"/C/laragon/www/cemde/resources/views/pacientes/show.blade.php"
+		"/C/laragon/www/cemde/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
 	],
 	"find":
 	{
@@ -780,6 +775,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ProjectController",
+			"name",
+			"projects",
+			"project",
+			"saveProject",
+			"home",
+			"observaciones",
+			"monto",
+			"IngresoSchema",
+			"ingresoRemoved",
+			"projectId",
+			"projectUpdated",
+			"ingresoUpdated",
+			"Project",
+			"projectId",
+			"projects",
+			"projectos",
+			"projects",
+			"year",
+			"Project",
+			"project",
+			"projecto",
+			"projectId",
+			"ingresoId",
+			"project",
+			"projecto",
+			"fecha",
+			"Number",
 			"error",
 			"about",
 			"socket",
@@ -886,38 +909,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.routing.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								526,
-								526
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

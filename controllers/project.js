@@ -54,8 +54,13 @@ var controller = {
 
 	getProjects: function(req, res){
 		
+		Project.find({}).sort('-year').exec((err, projects) => {
+			if(err) return res.status(500).send({error: 1, message: 'Error al recuperar los Proyectos... ' + err});
 
-		return Controller.getAll(req, res, Project, 'projects');
+			if (!projects) return res.status(404).send({error: 1, message: "No hay proyectos disponibles."});
+
+			return res.status(200).send({error: 0, projects: projects})
+		});
 	}, 
 
 	updateProject: function(req, res){
