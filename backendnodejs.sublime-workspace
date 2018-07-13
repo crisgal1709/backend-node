@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Ing",
+				"Ingreso\talias"
+			],
+			[
+				"Ingreso",
+				"IngresoService\talias"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"contain",
+				"container-fluid \tBootstrap 4 Class"
+			],
+			[
 				"ba",
 				"background-size"
 			],
@@ -126,10 +142,6 @@
 			[
 				"Cache",
 				"Cache::forever\tStore an item in the Cache Permanently"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"Session",
@@ -502,23 +514,73 @@
 			[
 				"max",
 				"max-height"
-			],
-			[
-				"n",
-				"under"
-			],
-			[
-				"text",
-				"text-underline-position"
-			],
-			[
-				"ps",
-				"perspective"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/ingreso/ingreso.component.html",
+			"settings":
+			{
+				"buffer_size": 2128,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.html",
+			"settings":
+			{
+				"buffer_size": 2187,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/ingreso/ingreso.component.ts",
+			"settings":
+			{
+				"buffer_size": 2857,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/ingreso.js",
+			"settings":
+			{
+				"buffer_size": 2548,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.ts",
+			"settings":
+			{
+				"buffer_size": 2050,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/project.service.ts",
+			"settings":
+			{
+				"buffer_size": 1514,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/services/ingreso.service.ts",
+			"settings":
+			{
+				"buffer_size": 1326,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -588,7 +650,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 464.0
+		"width": 496.0
 	},
 	"console":
 	{
@@ -620,25 +682,45 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/desarrollador/Documents/masterjs/backend-node",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/edit",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/models",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components"
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/ingreso",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/services"
 	],
 	"file_history":
 	[
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.routing.ts",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.routing.ts",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.module.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/services/global.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/ingreso/ingreso.component.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/services/ingreso.service.ts",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.module.ts",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.component.html",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/login/login.component.html",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.component.ts",
-		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/project.js",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.module.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.routing.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/projects/projects.component.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/project.service.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/models/ingreso.ts",
 		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/ingreso.js",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/models/project.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/global.ts",
+		"/Users/desarrollador/Documents/masterjs/backend-node/models/project.js",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/node_modules/protractor/exampleTypescript/specPageObjects.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/ingreso/ingreso.component.html",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/global.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.component.html",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/angular.json",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/styles.css",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/login/login.component.html",
+		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/project.js",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.routing.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.component.ts",
 		"/Users/desarrollador/Documents/masterjs/backend-node/routes/ingreso.js",
 		"/Users/desarrollador/Documents/masterjs/backend-node/app.js",
 		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/controller.js",
@@ -649,19 +731,14 @@
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/index.html",
 		"/Users/desarrollador/Documents/masterjs/backend-node/routes/project.js",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/edit/edit.component.ts",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/project.service.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.ts",
 		"/Users/desarrollador/Documents/masterjs/backend-node/.gitignore",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/assets/css/styles.css",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/projects/projects.component.html",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/global.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/detail/detail.component.ts",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/projects/projects.component.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/detail/detail.component.html",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.html",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/upload.service.ts",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/models/project.ts",
-		"/Users/desarrollador/Documents/masterjs/backend-node/models/project.js",
 		"/Users/desarrollador/Documents/masterjs/backend-node/node_modules/mongoose/lib/model.js",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/index.html",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/node_modules/rxjs/Observable.js",
@@ -748,16 +825,7 @@
 		"/C/laragon/www/cemde/app/Http/Controllers/SalidaInventarioController.php",
 		"/C/laragon/www/cemde/app/Http/Controllers/SolicitudController.php",
 		"/C/laragon/www/cemde/app/Policies/ComprasPolicies.php",
-		"/C/laragon/www/cemde/app/Policies/SolicitudesPolicies.php",
-		"/C/laragon/www/cemde/app/Http/Controllers/CompraController.php",
-		"/C/laragon/www/cemde/app/Policies/ProveedoresPolicies.php",
-		"/C/laragon/www/cemde/app/Policies/EquiposMedicosPolicies.php",
-		"/C/laragon/www/cemde/app/Policies/MueblesEnseresPolicies.php",
-		"/C/laragon/www/cemde/app/Policies/ProductosPolicies.php",
-		"/C/laragon/www/cemde/app/Policies/ServiciosIntangiblesPolicies.php",
-		"/C/laragon/www/cemde/app/Http/Helpers.php",
-		"/C/laragon/www/cemde/app/Http/Controllers/ProductoController.php",
-		"/C/laragon/www/cemde/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+		"/C/laragon/www/cemde/app/Policies/SolicitudesPolicies.php"
 	],
 	"find":
 	{
@@ -775,6 +843,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"project",
+			"actualizado",
+			"project",
+			"fecha",
+			"action_form",
+			"monto",
+			"project",
+			"edit",
+			"fecha",
+			"project",
+			"projects",
+			"project",
+			"Monto",
+			"project",
+			"input",
+			"div",
+			"fecha",
+			"ingreso",
+			"fecha",
+			"inlineFormInput",
+			"ingresos",
+			"string",
+			"headers",
+			"getProjects(): Observable<any>{\n\t\tlet headers = new HttpHeaders().set('Content-Type', 'application/json');\n\t\t\n\t\treturn this._http.get(this.url + 'projects', {headers: headers});\n\t}",
+			"projects",
+			"ProjectService",
+			"Project",
+			"projects",
+			"project",
+			"Project",
+			": ",
+			"project",
+			"bootstrap",
+			"css",
 			"ProjectController",
 			"name",
 			"projects",
@@ -868,30 +970,7 @@
 			"1",
 			"email",
 			"title",
-			"styles",
-			"proyectos",
-			"Proyectos",
-			");",
-			"AboutComponent",
-			"ContactComponent",
-			"contacto",
-			"\t{",
-			"CreateComponent",
-			"ProjectsComponent",
-			"proyectos",
-			"AboutComponent",
-			"server",
-			"home",
-			"ProjectController",
-			"socket",
-			"\t\t\n",
-			"app",
-			"server",
-			"urlMongo",
-			"port",
-			"!!",
-			"params",
-			"langs"
+			"styles"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -909,8 +988,221 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/ingreso/ingreso.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2186,
+								2186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/ingreso/ingreso.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1806,
+								1806
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 827.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "controllers/ingreso.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2031,
+								2031
+							],
+							[
+								2444,
+								2444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 851.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								908,
+								882
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 514.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/project.service.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1259,
+								1509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 430.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/services/ingreso.service.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1073,
+								1073
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 277.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -991,12 +1283,44 @@
 		"selected_items":
 		[
 			[
-				"detailcon",
-				"proyecto-angular/src/app/components/detail/detail.component.html"
+				"ingreso.se",
+				"manejo-dinero/src/app/services/ingreso.service.ts"
 			],
 			[
 				"project.se",
 				"proyecto-angular/src/app/services/project.service.ts"
+			],
+			[
+				"ingreso.ser",
+				"manejo-dinero/src/app/services/ingreso.service.ts"
+			],
+			[
+				"appcreate",
+				"proyecto-angular/src/app/components/create/create.component.ts"
+			],
+			[
+				"global.ts",
+				"manejo-dinero/src/app/services/global.ts"
+			],
+			[
+				"ingreso.com",
+				"manejo-dinero/src/app/components/ingreso/ingreso.component.ts"
+			],
+			[
+				"manapp.mod",
+				"manejo-dinero/src/app/app.module.ts"
+			],
+			[
+				"manejodineroappingresos",
+				"manejo-dinero/src/app/services/ingreso.service.ts"
+			],
+			[
+				"modelspago",
+				"proyecto-angular/node_modules/protractor/exampleTypescript/specPageObjects.ts"
+			],
+			[
+				"detailcon",
+				"proyecto-angular/src/app/components/detail/detail.component.html"
 			],
 			[
 				"styles.css",
@@ -1469,38 +1793,6 @@
 			[
 				"tabshis",
 				"resources\\views\\pacientes\\tabs\\historia.blade.php"
-			],
-			[
-				"tabsctc",
-				"resources\\views\\pacientes\\tabs\\ctc.blade.php"
-			],
-			[
-				"ctccon",
-				"app\\Http\\Controllers\\CtcController.php"
-			],
-			[
-				"tabsconsen",
-				"resources\\views\\pacientes\\tabs\\consentimientos-informados.blade.php"
-			],
-			[
-				"tabsanexo",
-				"resources\\views\\pacientes\\tabs\\anexo_tecnico.blade.php"
-			],
-			[
-				"anexotecon",
-				"app\\Http\\Controllers\\AnexoTecnicoController.php"
-			],
-			[
-				"consentimicon",
-				"app\\Http\\Controllers\\ConsentimientoInformadoController.php"
-			],
-			[
-				"tabsprocedimi",
-				"resources\\views\\pacientes\\tabs\\procedimientos.blade.php"
-			],
-			[
-				"procedicon",
-				"app\\Http\\Controllers\\ProcedimientoController.php"
 			]
 		],
 		"width": 0.0

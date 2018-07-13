@@ -61,7 +61,7 @@ var controller = {
 
 			if (!ingresoUpdated) return res.status(404).send({error: 1, message: "Este ingreso no existe."});
 
-			return res.status(200).send({error: 0, project: ingresoUpdated});
+			return res.status(200).send({error: 0, ingreso: ingresoUpdated});
 		})
 
 	},
@@ -75,7 +75,7 @@ var controller = {
 
 			if (!ingresoRemoved) return res.status(404).send({error: 1, message: "Este proyecto no existe."});
 
-			return res.status(200).send({error: 0, project: ingresoRemoved, message: 'Ingreso eliminado con éxito'});
+			return res.status(200).send({error: 0, ingreso: ingresoRemoved, message: 'Ingreso eliminado con éxito'});
 		})
 
 	},
