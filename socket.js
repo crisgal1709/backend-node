@@ -1,48 +1,49 @@
-// 'use strict'
+'use strict'
 
+var io = require ('socket.io');
 
-// var express = require('express');
-// var app = require('./app');
-// var server = require('http').Server(app);
-// var io = require('socket.io')(app);
+var cubic = {};
 
-// //var port = process.env.PORT_SOCKET || 3001;
+var apps = [
+	'1234',
+	'9876',
+];
 
-// // server.listen(port, function(){
-// // 	console.log('El servidor está funcionando en :' + port);
-// // });
+var socket = {};
 
-// app.get('/', (req, res)=> {
-// 	console.log(req.query);
-// 	io.emit('prueba', req.query )
-// 	res.status(200).send('si');
-// });
+cubic.getSocket = function getSocket(){
+	return io;
+}
 
-// //Sockets
-// var messages = [
-// 	{
-// 		id: 1,
-// 		text: 'Bienvenido, si está aquí por error, no hay nada especial, son solo pruebas con Socket.io',
-// 		nickname: 'Bot - cristiangno'
-// 	}
-// ];
+cubic.socketConnection = function socketConnection(socket){
+	socket.emit('message', {message: 'Hey!'});
+};
 
-// io.on('connection', (socket) => {
-// 	//console.log('El nodo con IP: ' + socket.handshake.address + ' Se ha conectado');
-// 	socket.emit('messages', messages);
+cubic.startIo = function startIo(server){
+	io = io.listen(server);
 
-// 	socket.on('addMessage', function(data) {
-// 		messages.push(data);
-// 		io.sockets.emit('messages', messages);
-// 	});
+	io.use((socket, next) => {
+		//let app = socket.handshake.query.app;
+		let app = '1234';
 
-// 	socket.on('verificar_paciente_atencion', function(data){
-// 		var mensaje = {
-// 			on: true
-// 		};
-// 		io.sockets.emit('paciente_atencion', mensaje);
-// 	})
+		if (apps.indexOf(app) > -1) {
+			return next();
+		}
 
-// });
+		return next(new Error('authentication error'));
+	})
+	
+	io.on('connection', cubic.socketConnection);
+	
+	return io;
+};
 
-// module.exports = io;
+cubic.events = function(io, req, res){
+	io.emit(req.body.event, req.body)
+	//console.log(req.body)
+	console.log('desde el backend');
+	res.status(200).send({error: 0, message: 'Broadcast succesfully'});
+}
+
+module.exports = cubic;
+
