@@ -7,7 +7,7 @@ var multipart = require('connect-multiparty');
 var SocketController = require('../controllers/socket');
 
 router.get('/home', SocketController.home);
-router.get('/url', SocketController.url);
+
 
 module.exports = router;
 
