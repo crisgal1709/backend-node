@@ -1,17 +1,12 @@
 'use strict'
 
+var sendResetPassword = require('../mailer/sendResetPassword')
+
 var baseController = {
 
-	getAll: function(req, res, model, name, sort = '-year' ){
-
-		model.find({}).sort(sort).exec((err, all) => {
-			if(err) return res.status(500).send({error: 1, message: 'Error al recuperar los registros... ' + err});
-
-			if (!all) return res.status(404).send({error: 1, message: "No hay registros disponibles."});
-
-			return res.status(200).send({error: 0, data: all})
-		});
-
+	sendEmail: function(req, res){
+		sendResetPassword('cr@gmail.com', 'Cristian', 'cristiangno');
+		return res.send('Hola')
 	}
 
 };

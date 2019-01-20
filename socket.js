@@ -7,6 +7,7 @@ var cubic = {};
 var apps = [
 	'1234',
 	'9876',
+	'hcfa_123456'
 ];
 
 var socket = {};
@@ -40,8 +41,6 @@ cubic.startIo = function startIo(server){
 
 cubic.events = function(io, req, res){
 	io.emit(req.body.event, req.body)
-	//console.log(req.body)
-	console.log('desde el backend');
 	res.status(200).send({error: 0, message: 'Broadcast succesfully'});
 }
 

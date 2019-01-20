@@ -1,29 +1,28 @@
 'use strict'
 
+const config = require('./config');
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 var app = require('./app');
-var port = process.env.PORT || 3000;
-var urlMongo = process.env.MONGODB_URI || 'mongodb+srv://crisgal:thewise@cluster0-0rg4n.mongodb.net/test?retryWrites=true';
 var cubic = require('./socket');
 
-
-
-mongoose.connect(urlMongo)
+mongoose.connect(config.urlMongo)
 				.then(() => {
-					console.log('Conexión a la base de datos establecida exitosamente');
-
-					//Creación del servidor
-					var server = app.listen(port, () => {
-						console.log('Servidor corriendo correctamente en el puerto ' + port);
-					});
-
-					var io = cubic.startIo(server);
-					app.post('/event-post', (req, res) => {
-						cubic.events(io, req, res);
-					})
+					//console.log('Conexión a la base de datos establecida exitosamente');
 					
 				})
 				.catch(err => console.log(err))
+
+//Creación del servidor
+var server = app.listen(config.port, () => {
+	console.log('Servidor corriendo correctamente en el puerto ' + config.port);
+});
+
+var io = cubic.startIo(server);
+
+app.post('/event-post', (req, res) => {
+	console.log(req.body)
+	cubic.events(io, req, res);
+})
 
 

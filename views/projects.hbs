@@ -1,0 +1,192 @@
+<br><br>
+<div class="container-fluid">
+	<div class="pull-right">
+		<a class="btn btn-primary btnNew">
+			New
+		</a>
+	</div>
+	<br>
+	<div id="container-projects">
+		
+	</div>
+</div>
+
+{{> modals/newProject }}
+{{> modals/editProject }}
+
+
+
+<script type="text/javascript">
+
+$(document).on('click', '.btnNew', () => {
+	$('#newProject').modal()
+})
+
+$(document).on('submit', '#formNewProject', event => {
+	event.preventDefault()
+	var name = $('#name').val();
+	var category = $('#category').val();
+	var description = $('#description').val();
+	var langs = $('#langs').val();
+	var year = $('#year').val();
+
+	var data = {
+		name: name,
+		category: category,
+		description: description,
+		langs: langs,
+		year: year,
+	}
+
+	$.ajax({
+		url: '/api/save-project',
+		type: 'POST',
+		cache: false,
+		proccessData: false,
+		dataType: 'json',
+		data: data,
+	})
+	.done(response => {
+		if (response.error == 0) {
+			alert('Proyecto Guardado');
+			$('#newProject').modal('hide');
+			$('#formNewProject')[0].reset()
+			loadProjects()
+		}
+	})
+	.fail(error => {
+		console.log(error.responseJSON.message);
+	})
+})
+
+$(document).on('click', 'a.btnEdit', function(e) {
+	var id = $(this).attr('aria-id');
+	$.get('api/project/' + id, response => {
+		if (response.err == 0) {
+			$('#name_edit').val(response.project.name);
+			$('#category_edit').val(response.project.category);
+			$('#description_edit').val(response.project.description);
+			$('#langs_edit').val(response.project.langs);
+			$('#year_edit').val(response.project.year);
+			$('#idProject').val(response.project._id)
+			$('#editProject').modal();
+		}
+	})
+})
+
+$(document).on('submit', '#formEditProject', event => {
+	event.preventDefault();
+
+	var data = {
+		name: $('#name_edit').val(),
+		category: $('#category_edit').val(),
+		description: $('#description_edit').val(),
+		langs: $('#langs_edit').val(),
+		year: $('#year_edit').val(),
+	}
+
+	var id = $('#idProject').val()
+
+	$.ajax({
+		url: 'api/project/' + id,
+		type: 'PUT',
+		dataType: 'json',
+		data: data,
+	})
+	.done(response => {
+		console.log(response);
+		$('#editProject').modal('hide');
+		$('#formEditProject')[0].reset()
+		loadProjects()
+		alert('Proyecto actualizado')
+	})
+	.fail(error => {
+		console.log(error.responseJSON.message);
+	})
+});
+
+$(document).on('click', '.btnDelete', function(event) {
+	var id = $(this).attr('aria-id');
+
+	var x = confirm('¿En realidad desea eliminar este producto?');
+
+	if (!x) return;
+
+	$.ajax({
+		url: '/api/project/' + id,
+		type: 'DELETE',
+		dataType: 'json',
+	})
+	.done(response => {
+		if (response.error == 0) {
+			alert(response.message);
+			loadProjects()
+		} else {
+			alert(response.message);
+			loadProjects()
+		}
+	})
+	.fail(error => {
+		console.log(error.responseJSON.message);
+	})
+})
+
+loadProjects()
+
+function loadProjects(){
+	$.ajax({
+		url: '/api/projects',
+		type: 'GET',
+		dataType: 'json',
+	})
+	.done(response => {
+		console.log(response)
+		if (response.error == 0) {
+			var __ = `<div class="row">`
+
+			$.map(response.projects, function(project, index) {
+				__ += `
+					<div class="project col-sm-4">
+						<div class="jumbotron">
+							<div class="col-sm-12">
+								<h2 class="text-center">${project.name}</h2>
+								<p><b>Category: </b> ${project.category}</p>
+								<p><b>Description: </b> ${project.description}</p>
+								<p><b>Langs: </b> ${project.langs}</p>
+								<p><b>Year: </b> ${project.year}</p>
+							</div>
+
+							<br />
+
+							<div class="row">
+								<div class="col-sm-6 text-center">
+									<a aria-id="${project._id}" class="btn form-control btn-warning btnEdit">
+										Edit
+									</a>
+								</div>
+								<div class="col-sm-6 text-center">
+									<a aria-id="${project._id}" class="btn form-control btn-danger btnDelete">
+										Delete
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				`
+			});
+
+			__ += `</div>`;
+
+			$('#container-projects').html(__)
+		}
+	})
+	.fail(error => {
+		redirectForLogin()
+	});
+
+	$(document).on('click', '.btnNew', event => {
+		
+	})
+
+}
+</script>

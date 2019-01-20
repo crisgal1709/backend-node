@@ -1,0 +1,53 @@
+<div class="modal fade" id="editProject" tabindex="-1" role="dialog" aria-labelledby="editProjectLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editProjectLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="POST" id="formEditProject">
+          
+            <div class="row">
+              <div class="col-sm-12">
+
+                <input type="hidden" value="0" id="idProject">
+
+                <div class="form-group">
+                  <label for="name"><b>Name</b></label>
+                  <input type="text" class="form-control" name="name" id="name_edit">
+                </div>
+
+                <div class="form-group">
+                  <label for="category"><b>Category</b></label>
+                  <input type="text" class="form-control" name="category" id="category_edit">
+                </div>
+
+                <div class="form-group">
+                  <label for="description"><b>Description</b></label>
+                  <textarea type="text" class="form-control" name="description" id="description_edit"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <label for="langs"><b>Langs</b></label>
+                  <input type="text" class="form-control" name="langs" id="langs_edit">
+                </div>
+
+                <div class="form-group">
+                  <label for="year"><b>Year</b></label>
+                  <input type="text" class="form-control" name="year" id="year_edit">
+                </div>
+              </div>
+            </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">SAVE CHANGES</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>

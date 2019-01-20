@@ -9,7 +9,8 @@ var ProjectSchema = Schema({
 	year: Number,
 	category: String,
 	langs: String,
-	image: String
+	image: String,
+	user_id: { type: Schema.Types.ObjectId, ref: 'User' }
 }) 
 
 

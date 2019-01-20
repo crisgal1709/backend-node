@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"Ob",
+				"Observable\talias"
+			],
+			[
+				"dat",
+				"dataEnviar\tlocal var"
+			],
+			[
+				"In",
+				"Injectable\talias"
+			],
+			[
+				"GETE",
+				"getElementsByClassName\tmethod"
+			],
+			[
+				"list-gro",
+				"list-group-item \tBootstrap 4 Class"
+			],
+			[
+				"soc",
+				"socket"
+			],
+			[
 				"Vi",
 				"ViewChild\talias"
 			],
@@ -490,35 +514,20 @@
 			[
 				"fon",
 				"font-size"
-			],
-			[
-				"ima",
-				"imagePath"
-			],
-			[
-				"thum",
-				"thumbnail"
-			],
-			[
-				"dd",
-				"dd\tL5 dd"
-			],
-			[
-				"fle",
-				"flex-start"
-			],
-			[
-				"padd",
-				"padding"
-			],
-			[
-				"f",
-				"flex-start"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "controllers/project.js",
+			"settings":
+			{
+				"buffer_size": 4386,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -588,7 +597,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 464.0
+		"width": 480.0
 	},
 	"console":
 	{
@@ -621,39 +630,43 @@
 	"expanded_folders":
 	[
 		"/Users/desarrollador/Documents/masterjs/backend-node",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/contact",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/slider",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/assets",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/assets/css"
+		"/Users/desarrollador/Documents/masterjs/backend-node/controllers"
 	],
 	"file_history":
 	[
+		"/Users/desarrollador/Documents/masterjs/backend-node/socket.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/index.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/package.json",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/login/login.component.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/services/global.ts",
+		"/Users/desarrollador/Documents/masterjs/backend-node/models/app.js",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/login/login.component.html",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/services/socket.service.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/ingreso/ingreso.component.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/services/ingreso.service.ts",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/slider/slider.component.ts",
+		"/Users/desarrollador/Documents/masterjs/manejo-dinero/angular.json",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/projects/projects.component.html",
+		"/Users/desarrollador/Documents/masterjs/backend-node/app.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/routes/socket.js",
+		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/socket.js",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/package.json",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/angular.json",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/assets/css/styles.css",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/server.js",
+		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/about/about.component.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/upload.service.ts",
-		"/Users/desarrollador/Documents/masterjs/backend-node/app.js",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/assets/css/styles.css",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/contact/contact.component.html",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/contact/contact.component.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/resaltado.directive.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/resaltado.directive.spec.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/slider/slider.component.html",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/slider/slider.component.ts",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/package.json",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/angular.json",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.module.ts",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/services/ingreso.service.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/services/project.service.ts",
 		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/ingreso.js",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/services/global.ts",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/ingreso/ingreso.component.html",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/create/create.component.html",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/ingreso/ingreso.component.ts",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.module.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.routing.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/projects/projects.component.ts",
@@ -664,9 +677,7 @@
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/node_modules/protractor/exampleTypescript/specPageObjects.ts",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/global.ts",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.component.html",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/angular.json",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/styles.css",
-		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/components/login/login.component.html",
 		"/Users/desarrollador/Documents/masterjs/backend-node/controllers/project.js",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.routing.ts",
 		"/Users/desarrollador/Documents/masterjs/manejo-dinero/src/app/app.component.ts",
@@ -680,16 +691,13 @@
 		"/Users/desarrollador/Documents/masterjs/backend-node/routes/project.js",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/edit/edit.component.ts",
 		"/Users/desarrollador/Documents/masterjs/backend-node/.gitignore",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/projects/projects.component.html",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/detail/detail.component.ts",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/detail/detail.component.html",
 		"/Users/desarrollador/Documents/masterjs/backend-node/node_modules/mongoose/lib/model.js",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/index.html",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/node_modules/rxjs/Observable.js",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/about/about.component.html",
-		"/Users/desarrollador/Documents/masterjs/backend-node/index.js",
 		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/app.component.html",
-		"/Users/desarrollador/Documents/masterjs/proyecto-angular/src/app/components/about/about.component.ts",
 		"/C/laragon/www/backend/socket.js",
 		"/C/laragon/www/backend/index.js",
 		"/C/laragon/www/backend/controllers/socket.js",
@@ -753,19 +761,11 @@
 		"/C/laragon/www/cemde/app/Policies/HorariosPolicies.php",
 		"/C/laragon/www/cemde/app/Policies/EmpresasPolicies.php",
 		"/C/laragon/www/cemde/app/Policies/CuentasPolicies.php",
-		"/C/laragon/www/cemde/vendor/laravel/framework/src/Illuminate/Auth/Access/HandlesAuthorization.php",
-		"/C/laragon/www/cemde/app/Http/Controllers/ReportesController.php",
-		"/C/laragon/www/cemde/app/Policies/IngresoCotizacionesPolicies.php",
-		"/C/laragon/www/cemde/app/Policies/FacturasPolicies.php",
-		"/C/laragon/www/cemde/app/Http/Controllers/FacturaController.php",
-		"/C/laragon/www/cemde/app/Policies/PagosPolicies.php",
-		"/C/laragon/www/cemde/app/Http/Controllers/PagoController.php",
-		"/C/laragon/www/cemde/app/Policies/CotizacionesPolicies.php",
-		"/C/laragon/www/cemde/app/Http/Controllers/IngresoCotizacionController.php"
+		"/C/laragon/www/cemde/vendor/laravel/framework/src/Illuminate/Auth/Access/HandlesAuthorization.php"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -779,6 +779,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jugglingdb",
+			"date",
+			"content",
+			"Post",
+			"guardado",
+			"service",
+			"IngresoService",
+			"ingreso",
+			"append",
+			"getElementByClassName",
+			"routes",
+			"post",
+			"app",
+			"socket_routes",
+			"app",
+			"io",
+			"set",
+			"getSocket",
+			"socket",
+			"token",
+			"request",
+			"var",
+			"packtchat",
+			"app",
+			"types",
 			"params",
 			"10px",
 			"marginTop",
@@ -881,32 +906,7 @@
 			"descripcion",
 			"description",
 			"name",
-			"100",
-			"div",
-			"url",
-			"edit",
-			"deleteProject",
-			"detail",
-			"1",
-			"getProject",
-			"ErrorComponent",
-			"5b426235c4927b4ebb20570d",
-			"path",
-			"Path",
-			"path",
-			"Path",
-			"path",
-			"year",
-			"in",
-			"ProjectService",
-			"project",
-			"UploadService",
-			"false",
-			"success",
-			"5b425ecea079c64d2570be53",
-			"error",
-			"err",
-			"projectRemoved"
+			"100"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -924,14 +924,44 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "controllers/project.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2084.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -996,7 +1026,7 @@
 	"project": "backendnodejs.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

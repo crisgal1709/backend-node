@@ -1,0 +1,54 @@
+<br><br>
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-sm-12">
+			<form class="form-horizontal" id="formLogin" method="POST">
+				<div class="form-group">
+					<input type="text" class="form-control" name="email" placeholder="Ingresa tu email" id="email" value="cr3@gmail.com">
+				</div>
+
+				<div class="form-group">
+					<input type="password" class="form-control" name="password" id="password" value="secret">
+				</div>
+
+				<div class="form-group">
+					<center>
+						<button class="btn btn-success btn-xl">Login</button>
+					</center>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+
+var formLogin = document.querySelector('#formLogin')
+
+
+formLogin.addEventListener('submit', event => {
+	event.preventDefault()
+	var formData = new FormData()
+	var data = {
+		email: document.querySelector('#email').value,
+		password: document.querySelector('#password').value
+	}
+
+	$.ajax({
+		url: '/auth/signIn',
+		type: 'POST',
+		dataType: 'json',
+		data: data,
+	})
+	.done(response => {
+		localStorage.setItem('back_token', response.token)
+		redirectForProjects()
+	})
+	.fail(error => {
+		console.log(error);
+		alert('Error: ' + error.responseJSON.message)
+	})
+})
+
+	
+</script>

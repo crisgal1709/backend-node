@@ -1,15 +1,17 @@
 'use strict'
 
 var Project = require('../models/project');
+var User = require('../models/user');
 var path = require('path')
 var fs = require('fs');
 var Controller = require('./controller');
+var util = require('../utils');
 
 
 var controller = {
 
 	home: function(req, res){
-
+		return res.status(200).send('hola, Projects');
 	}, 
 
 	test: function(req, res){
@@ -29,6 +31,7 @@ var controller = {
 		project.category    = params.category;
 		project.langs       = params.langs;
 		project.image       = null;
+		project.user_id     = null;
 
 		return project.save((err, projectStored) => {
 			if(err) return res.status(500).send({error: 1, message: 'Error al guardar el projecto ' + err});
@@ -53,11 +56,23 @@ var controller = {
 	}, 
 
 	getProjects: function(req, res){
+		// var user = new User();
+		// user.nombres = 'Cristian';
+		// user.apellidos = 'Galeano'
+		// user.usuario = 'cristiangno';
+		// user.password = 'secret';
+		// user.email = 'cr@gmail.com';
+		// console.log(user);
+		// user.save((err, userStored) => {
+		// 	console.log(userStored);
+		// })
 		
 		Project.find({}).sort('-year').exec((err, projects) => {
 			if(err) return res.status(500).send({error: 1, message: 'Error al recuperar los Proyectos... ' + err});
 
 			if (!projects) return res.status(404).send({error: 1, message: "No hay proyectos disponibles."});
+
+			//res.cookie('cookieName',333, { maxAge: 900000, httpOnly: true });
 
 			return res.status(200).send({error: 0, projects: projects})
 		});
@@ -108,16 +123,15 @@ var controller = {
 		if (req.files) {
 
 			var filePath = req.files.image.path;
-			console.log(filePath)
+			
 			var fileSplit = filePath.split("/");
 			var fileName = fileSplit[1];
 
 			var extSplit = fileName.split('.');
 			var fileExt = extSplit[1];
 
-
-
 			if (fileExt == 'png' || fileExt == 'jpg' || fileExt == 'jpeg' || fileExt == 'gif') {
+
 				return Project.findByIdAndUpdate(projectId, {image: fileName}, {new:true}, (err, projectUpdated) => {
 					if(err) return res.status(500).send({error: 1, message: 'Error al subir la imagen al proyecto... ' + err});
 
