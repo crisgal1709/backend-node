@@ -31,7 +31,7 @@ var controller = {
 	update: function(req, res){
 		var _id = req.params.id;
 		var task = req.body;
-		console.log(task)
+		// console.log(task)
 
 		Task.findByIdAndUpdate(_id, task, {new: true}, (err, taskUpdated) => {
 			if(err) return res.status(500).send({error: 1, message: 'Error al actualizar... ' + err});

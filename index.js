@@ -8,7 +8,7 @@ var cubic = require('./socket');
 
 mongoose.connect(config.urlMongo)
 				.then(() => {
-					//console.log('Conexión a la base de datos establecida exitosamente');
+					console.log('Conectado a la base de datos ' + config.urlMongo );
 					
 				})
 				.catch(err => console.log(err))
