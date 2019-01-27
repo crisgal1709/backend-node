@@ -15,6 +15,7 @@ var auth_routes = require('./routes/auth');
 var sports_routes = require('./routes/sports');
 var base_routes = require('./routes/base');
 var tasks_routes = require('./routes/tasks');
+var posts_routes = require('./routes/post');
 
 app.engine('.hbs', hbs({
 	defaultLayout: 'default',
@@ -45,13 +46,15 @@ app.get('/projects', (req, res) => {
 	return res.render('projects')
 })
 app.use('/api', project_routes);
-app.use('/ingreso', ingreso_routes);
+app.use('/ingresos', ingreso_routes);
 app.use('/auth', auth_routes);
 
 app.use('/sports', sports_routes)
 
 app.use('/base', base_routes)
 app.use('/tasks', tasks_routes)
+
+app.use('/posts', posts_routes)
 
 
 

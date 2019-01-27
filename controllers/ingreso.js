@@ -41,15 +41,26 @@ var controller = {
 		});
 	}, 
 
+	// getIngresos: function(req, res){
+	// 	Ingreso.find({}).sort('-fecha').exec((err, ingresos) => {
+	// 		if(err) return res.status(500).send({error: 1, message: 'Error al recuperar los ingesos... ' + err});
+
+	// 		if (!ingresos) return res.status(404).send({error: 1, message: "No hay ingresos disponibles."});
+
+	// 		return res.status(200).send({error: 0, ingresos: ingresos})
+	// 	});
+	// }, 
+
 	getIngresos: function(req, res){
-		Ingreso.find({}).sort('-fecha').exec((err, ingresos) => {
-			if(err) return res.status(500).send({error: 1, message: 'Error al recuperar los ingesos... ' + err});
+		let page = req.query.page || 1;
+		Ingreso.paginate({}, {page: page, limit: 5}, (err, result) => {
+		 	if(err) return res.status(500).send({error: 1, message: 'Error al recuperar los ingesos... ' + err});
 
-			if (!ingresos) return res.status(404).send({error: 1, message: "No hay ingresos disponibles."});
+	        if (!result) return res.status(404).send({error: 1, message: "No hay ingresos disponibles."});
 
-			return res.status(200).send({error: 0, ingresos: ingresos})
-		});
-	}, 
+			return res.status(200).send({error: 0, ingresos: result})
+		})
+	},
 
 	updateIngreso: function(req, res){
 

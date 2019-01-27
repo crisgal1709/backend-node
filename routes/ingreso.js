@@ -5,10 +5,10 @@ var IngresoController = require('../controllers/ingreso');
 var router = express.Router();
 
 router.get('/home', IngresoController.home);
-router.get('/ingresos', IngresoController.getIngresos);
-router.post('/save-ingreso', IngresoController.saveIngreso);
-router.get('/ingreso/:id', IngresoController.getIngreso);
-router.put('/ingreso/:id', IngresoController.updateIngreso);
-router.delete('/ingreso/:id', IngresoController.deleteIngreso);
+router.get('/', IngresoController.getIngresos);
+router.post('/save', IngresoController.saveIngreso);
+router.get('/:id', IngresoController.getIngreso);
+router.put('/:id', IngresoController.updateIngreso);
+router.delete('/:id', IngresoController.deleteIngreso);
 
 module.exports = router;
